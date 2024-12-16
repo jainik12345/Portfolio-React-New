@@ -9,13 +9,6 @@ import {
 import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import nftproject from "../../assets/projects/nft_blockchain_500x300.jpg";
-import medhub from "../../assets/projects/medhub_500x300.jpg";
-import collab from "../../assets/projects/lets_collab_img3.jpg";
-import blog from "../../assets/projects/bloggers.jpg";
-import eeg from "../../assets/projects/eeg_500x300.jpg";
-import mtrans from "../../assets/projects/mt_500x300.jpg";
-import steg from "../../assets/projects/steg_500x300.jpeg";
 
 import BloodBank from "../../assets/projects/blood.png";
 import CarRental from "../../assets/projects/car rental.jpg";
@@ -64,7 +57,6 @@ export default function Projects() {
               "Administrators manage requests, ensuring effective resource use"
             }
             techStack={"EXPRESS JS, NODE JS, REACT JS, MONGODB"}
-            // projectLiveLink="https://flipkart-grid-frontend.vercel.app/"
             projectLink="https://github.com/Rahul1582/NFT-Based-E-Commerce-Website"
           />
           <ProjectCard
@@ -74,7 +66,6 @@ export default function Projects() {
               "Implemented features such as user authentication, reservation management, and an admin panel"
             }
             techStack={"HTML, CSS, JAVASCRIPT, PHP, MYSQL"}
-            // projectLiveLink="https://lets-collab.vercel.app/"
             projectLink="https://github.com/Rahul1582/Lets_Collab"
           />
           <ProjectCard
@@ -84,7 +75,6 @@ export default function Projects() {
               "Frontend, Admin Panel, Backend Server, User Authentication, Shopping Cart, Stripe Integration, Order Status Updates."
             }
             techStack={"EXPRESS JS, NODE JS, REACT JS, MONGODB, STRIPE"}
-            // projectLiveLink="https://medhub-360.vercel.app/"
             projectLink="https://github.com/jainik12345/React-E-Commerce"
           />
           <ProjectCard

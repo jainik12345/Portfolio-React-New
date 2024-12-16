@@ -145,9 +145,14 @@ export default function Dashboard() {
                   >
                     This is{" "}
                     <Text display="inline-flex" color={highlightTextColor}>
-                      Jainik Darji
+                      <Typewriter
+                        onInit={(typewriter) => {
+                          typewriter.typeString("Jainik Darji.").start();
+                        }}
+                      />
                     </Text>
                   </Text>
+
                   <Text
                     fontFamily="Lobster Two"
                     fontWeight="bold"
@@ -156,7 +161,11 @@ export default function Dashboard() {
                   >
                     I am a{" "}
                     <Text display="inline-flex" color={highlightTextColor}>
-                      Software Developer
+                      <Typewriter
+                        onInit={(typewriter) => {
+                          typewriter.typeString("Software Developer.").start();
+                        }}
+                      />
                     </Text>
                   </Text>
                 </Box>

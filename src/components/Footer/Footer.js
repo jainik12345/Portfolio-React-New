@@ -7,10 +7,9 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { AiFillGithub, AiFillHeart } from "react-icons/ai";
-import { BsInstagram } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
+
 import { BiLogoLinkedin } from "react-icons/bi";
-import { SiLeetcode } from "react-icons/si";
 
 export default function Footer() {
   const textColor = useColorModeValue("lightblue.100", "lightpeach.100");
@@ -64,18 +63,7 @@ export default function Footer() {
             <AiFillGithub />
           </Link>
         </ListItem>
-        {/* <ListItem
-          me={{
-            base: "20px",
-            md: "40px"
-          }}
-          opacity="0.6"
-          _hover={{ opacity: 1 }}
-        >
-          <Link href="" target="blank">
-            <SiLeetcode />sa
-          </Link>
-        </ListItem> */}
+
         <ListItem
           me={{
             base: "20px",
@@ -91,18 +79,6 @@ export default function Footer() {
             <BiLogoLinkedin />
           </Link>
         </ListItem>
-        {/* <ListItem
-          me={{
-            base: "20px",
-            md: "40px",
-          }}
-          opacity="0.6"
-          _hover={{ opacity: 1 }}
-        >
-          <Link href="" target="blank">
-            <BsInstagram />
-          </Link>
-        </ListItem> */}
       </List>
     </Flex>
   );

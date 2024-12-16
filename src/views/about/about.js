@@ -61,11 +61,6 @@ export default function About() {
           alignItems="center"
           mb="40px"
         >
-          {/* <TypeAnimation
-            sequence={["ABOUT ME", 500, "ABOUT", 500, "ABOUT ME", 500]}
-            style={{ fontSize: "3em" }}
-            cursor={false}
-          /> */}
           <Grid
             templateColumns={{
               base: "1fr",
@@ -83,6 +78,7 @@ export default function About() {
               borderRadius="20px"
               p="20px"
               overflow="hidden"
+              _hover={{ transform: "scale(1.05)", transition: "all 0.3s ease" }}
             >
               <Box
                 __css={styles}
@@ -93,7 +89,6 @@ export default function About() {
                 height="100%"
                 bg={textColorPrimary}
                 transform="rotate(4deg)"
-                // zIndex="-1"
               />
               <Skeleton
                 height="100%"
@@ -102,12 +97,22 @@ export default function About() {
                 fadeDuration={1}
               >
                 <LazyLoadImage
-                  src={myphoto}fork
+                  src={myphoto}
                   width="100%"
                   height="100%"
                   alt="Image Alt"
                   effect="blur"
-                  style={{ height: "100%" }}
+                  style={{
+                    filter: "grayscale(100%)",
+                    transition: "filter 0.3s ease",
+                    cursor: "pointer",
+                  }}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.filter = "grayscale(0%)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.filter = "grayscale(100%)")
+                  }
                   onLoad={() => setloadedProfileimg(true)}
                 />
               </Skeleton>
@@ -142,7 +147,6 @@ export default function About() {
                     title="Location"
                     value="Ahmedabad, Gujarat"
                   />
-
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Languages"
@@ -153,7 +157,6 @@ export default function About() {
             </Flex>
           </Grid>
         </Flex>
-
         <Flex
           direction="row"
           justifyContent="center"

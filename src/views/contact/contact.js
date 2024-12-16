@@ -150,7 +150,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   style={{ color: "inherit" }}
                 >
-                  +91 6358082895
+                  +91 63580-82895
                 </a>
               </Text>
             </Box>

@@ -1,34 +1,30 @@
 # Portfolio
 
-Self Coded Portfolio Website made using React JS and Chakra UI.
+ 
+A simple portfolio template for developer/designers built with React JS and Chakra UI.
 
-
-<p align="center"> 
-  <kbd>
-    <a href="https://rahulkp15.onrender.com/" target="_blank"><img src="./images/intro.jpg" >
-  </a>
-  </kbd>
-</p>
+ 
 
 ## Live Demo 
 
-- Click [here](https://rahulkp15.onrender.com/) to view the live demo.
+- Click [HERE]( ) to view the live demo.
 
 ## Features 📋
 
-⚡️ Dark and Light Theme \
-🎨 Customizable Layouts: Personalize your portfolio layout.\
-📱  Responsive Design: Look great on desktop, tablet, and mobile.\
-🏳️ Shimmering Effect and Lazy Loading of Images. \
-💡  Edit with Ease: Light weight editing solution.\
-💻 Downloadable React Code: Full control over your portfolio.
+
+ 
+📱 Responsive Design: Look great on desktop, tablet, and mobile.\
+🏳️ Shimmering Effect and Lazy Loading and scrollbar . \
+💡 Edit with Ease: Light weight editing solution.\
+💻 Downloadable React Code: Full control over your portfolio.\
+⚡️ Dark and Light Theme.
 
 
 ## Sections 📚
 
 ✔️ Home\
 ✔️ About Me\
-✔️ Projects And Blogs\
+✔️ Projects\
 ✔️ Resume\
 ✔️ Contact Me
 
@@ -37,32 +33,14 @@ Self Coded Portfolio Website made using React JS and Chakra UI.
 - [React.js](https://react.dev/)
 - [Chakra UI](https://chakra-ui.com/)
 
-## Screenshots
-
-### Laptop Views
-
-<p align="center"> 
-  <kbd>
-    <a href="https://rahulkp15.onrender.com/" target="_blank"><img src="./images/laptopView.jpg">
-  </a>
-  </kbd>
-</p>
-
-### Mobile Views
-
-<div align="center"> 
-  <kbd>
- <img src="./images/mobile-view-1.jpg" width="400" height="400">
- <img src="./images/mobile-view-2.jpg" width="400" height="400">
-  </kbd>
-</div>
+ 
 
 ## Getting Started ⚡ :-
 
 **1. Clone this repo by running the following command :-**
 
 ```bash
- git clone https://github.com/Rahul1582/portfolio-rahulkp.git
+ git clone  
 ```
 
 **2. Now Install all the required packages by running the following commands :-**
@@ -79,16 +57,7 @@ Self Coded Portfolio Website made using React JS and Chakra UI.
 
 **3.** **🎉 Open your browser and go to `https://localhost:3000`**
 
-## Deployment 📦
-
-This Web Application is deployed to Render.
-
-You could also host directly with Render by linking your own repository.
-
-
-## License 📄
-This project is licensed under the Apache-2.0 License - see the [LICENSE.md](./LICENSE) file for details
-
+ 
 
 ## Show your Support
 
