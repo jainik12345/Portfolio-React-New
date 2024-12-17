@@ -7,7 +7,7 @@ A simple portfolio template for developer/designers built with React JS and Chak
 
 ## Live Demo 
 
-- Click [HERE]( ) to view the live demo.
+- Click [HERE]( https://jainik-portfolio.netlify.app/) to view the live demo.
 
 ## Features 📋
 
